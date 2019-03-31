@@ -8,6 +8,7 @@ export default class Layout extends React.Component {
             <div className="[ col-sm-12 ]">
               <nav className="[ layout--container__header header ]">
                 <img src="https://www.freeiconspng.com/uploads/rick-and-morty-beige-folder-icon-1.png" alt="Rick and Morty" />
+                  <a href="../pages/contact-form-component/form.component.jsx">Contact us</a>
               </nav>
             </div>
           </div>
