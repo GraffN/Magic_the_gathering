@@ -9,16 +9,11 @@ body{
 
 header{
     padding: 10px;
-    background-color: #3a99cd;
-    color: #ffffff;
+    background: #3a99cd;
     margin-bottom: 30px;
 }
 
-.navbar-default{
-    background-color: transparent;
-    border: none;
-    color: white;
-}
+
 
 header h1{
     display: inline-block;
@@ -30,16 +25,7 @@ header i{
     color: #ffffff;
 }
 
-.navbar-nav{
-    float: right;
-}
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-    background-color: transparent;
-    color: #ffffff;
-    border-bottom: solid 3px white;
-
-}
 
 section{
     min-height: 750px;
@@ -53,9 +39,7 @@ footer{
     margin-top: 30px;
 }
 
-.navbar-default .navbar-nav>li>a{
-    color: white;
-}
+
 
 h3{
     width: 100%;
@@ -96,18 +80,7 @@ button{
 .float-right{
     float: right;
 }
-.card-container{
-    border: solid 1px lightgrey;
-    border-top: 10px solid #3a99cd;
-    margin-top: 30px;
-    margin-left: 5px;
-    padding: 15px;
-}
 
-.card-container:hover{
-    box-shadow: 5px 5px 2.5px #888888;
-    cursor: pointer;
-}
 
 .btn-success{
     background-color: #3a99cd;

@@ -36,7 +36,11 @@ export default class Layout extends React.Component {
               {this.props.children}
             </div>
           </div>
+          <footer>
+              Copyright <i className="fa fa-copyright" aria-hidden="true"></i> Noroff
+          </footer>
       </div>
+
     );
   }
 }

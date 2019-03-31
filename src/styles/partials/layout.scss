@@ -1,3 +1,23 @@
 .layout{
 
 }
+.navbar-default{
+  background-color: #3a99cd;
+  border: none;
+  color: white;
+  padding: 50px;
+
+}
+.navbar-nav{
+  float: right;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: transparent;
+  color: #ffffff;
+  border-bottom: solid 3px white;
+
+}
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}

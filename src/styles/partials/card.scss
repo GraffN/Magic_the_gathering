@@ -1,24 +1,36 @@
 .card{
 
-
-    /*background from https://codepen.io/bitmap/pen/jfKxm*/
     &--image{
-
+        padding-bottom: 10px;
 
     }
     &--info{
 
+        padding: 5px;
         &__center{
-
+            text-align: center;
+            padding-bottom: 10px;
         }
     }
 
     img{
-
+        width: 100%;
     }
 
 
 }
 .card:hover{
+    filter: alpha(.7);
+}
+.card-container{
+    border: solid 1px lightgrey;
+    border-top: 10px solid #3a99cd;
+    margin-top: 30px;
+    margin-left: 5px;
+    padding: 15px;
+}
 
+.card-container:hover{
+    box-shadow: 5px 5px 2.5px #888888;
+    cursor: pointer;
 }

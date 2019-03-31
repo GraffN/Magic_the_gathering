@@ -12,6 +12,7 @@ import App from './components/App/App';
 import Homepage from './pages/homepage/homepage';
 import CharacterSpecific from './pages/character-specific/character-specfic';
 /*import contactForm from './pages/contact-form-component/form-component.jsx';*/
+/*import aboutpage from './pages/aboutpage/about.jsx'*/
 
 const routes = (
     <HashRouter>
@@ -20,6 +21,7 @@ const routes = (
                 <Route path="/" exact component={Homepage} />
                 <Route path="/character-specfic/:id" component={CharacterSpecific} />
                 {/*<Route path="/contact-form" component={contactForm} />*/}
+                {/*<Route path="/about" component={aboutpage}/>*/}
 
             </App>
         </Switch>
