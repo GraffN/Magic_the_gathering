@@ -1,0 +1,33 @@
+.card{
+    background-color: steelblue;
+    border: solid 2px lightsteelblue;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 30px;
+    background-image: repeating-linear-gradient(-45deg, rgba(255,255,255, 0.5), rgba(0,200,0, 0.5) 2px, transparent .5px, transparent 5px);
+    background-size: 4px 4px;
+
+    /*background from https://codepen.io/bitmap/pen/jfKxm*/
+    &--image{
+        padding-bottom: 10px;
+
+    }
+    &--info{
+        background-color: palegoldenrod;
+        padding: 5px;
+        &__center{
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    }
+
+    img{
+        width: 100%;
+    }
+
+
+}
+.card:hover{
+    filter: alpha(.7);
+    border: solid 2px lawngreen;
+}
