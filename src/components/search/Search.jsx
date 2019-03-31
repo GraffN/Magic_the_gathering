@@ -17,14 +17,20 @@ handleCharacterSearchTerm(){
         const app = this;
 
         return (
-            <div className="[ search--container search ]">
-                <input type="text" 
-                       ref="searchTerm" 
-                       onChange={app.handleCharacterSearchTerm} 
-                       className="form-control"
-                       placeholder="Search for a character" 
-                />
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-12" id="searchBar">
+                        <form className="relative">
+                            <input type="text"
+                                   ref="searchTerm"
+                                   onChange={app.handleCharacterSearchTerm}
+                                   className="form-control"
+                                   placeholder="Search for a character"/>
+                        </form>
+                    </div>
+                </div>
             </div>
+
         );
     }
 }
